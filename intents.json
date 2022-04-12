@@ -1,0 +1,137 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Greetings",
+        "Hi",
+        "Hey",
+        "Hello", "helloo", "Howdy", "Hola",
+        "How are you", "How are you doing", "How u doing?", "How're you doing",
+        "Whats up", "Yo",
+        "Sup",
+        "Is anyone there",
+        "Are you there", "You there",
+        "Need some help"
+
+      ],
+      "responses": [
+        "Bot reporting! ;-) What's on your mind?",
+        "Hello mate! Feeling creative?",
+        "Hey, It's your favourite Bot ;-) Any thoughts?",
+        "Hello sir! got any new ideas?",
+        "Hey! Good day to be creative. Isn't it?",
+        "Hello master creator! How can I help?"
+      ]
+    },
+     {
+      "tag": "Morning",
+      "patterns": [
+        "Good morning", "Morning", "Gd morning", "G'morning", "G morning", "Gm", "Gummorning",
+        "Good morning Bot", "Morning Bot", "Gd morning Bot", "G'morning Bot", "G morning Bot", "Gm Bot", "Gummorning Bot",
+        "Hey good morning", "Hey gummorning", "Hey gd morning", "Hey g'morning", "Hey gm",
+        "Hi good morning", "Hi gummorning", "Hi gd morning", "Hi g'morning", "Hi gm",
+        "Hello good morning", "Hello gummorning", "Hello gd morning", "Hello g'morning", "Hello gm",
+        "Howdy good morning", "Howdy gummorning", "Howdy gd morning", "Howdy g'morning", "Howdy gm",
+        "Very good morning", "Very gd morning", "Very gummorning", "Very g'morning", " Vgm"
+      ],
+      "responses": [
+        "Good morning mate. What brings you up here?",
+        "It is now. How may I assist you?",
+        "You just made it better. How can I repay you?",
+        "Thanks to you! What do you seek?",
+        "Hello master creator! How can I help?"
+      ]
+    },
+     {
+      "tag": "day",
+      "patterns": [
+        "Good afternoon", "afternoon", "Gd afternoon", "D'afternoon", "D afternoon",
+        "Good afternoon Bot", "afternoon Bot", "Gd afternoon Bot", "D'afternoon Bot", "D afternoon Bot",
+        "Hi good afternoon", "Hi gd afternoon", "Hi d'afternoon", "Hi d'afternoon",
+        "Hey good afternoon", "Hey gd afternoon", "Hey d'afternoon", "Hey d'afternoon",
+        "Hello good afternoon", "Hello gd afternoon", "Hello d'afternoon", "Hello d'afternoon"
+      ],
+      "responses": [
+        "Good afternoon mate. What brings you up here?",
+        "It is now. How may I assist you?",
+        "You just made it better. How can I repay you?",
+        "Thanks to you! What do you seek?",
+        "Hello master creator! How can I help?"
+      ]
+    },
+    {
+      "tag": "night",
+      "patterns": [
+        "Good night", "night night", "Gd night", "Gd nyt", "Gn",
+        "Good night Bot", "night night Bot", "Gd night Bot", "Gd nyt Bot", "Gn Bot",
+        "Sweet dreams"
+      ],
+      "responses": [
+        "Good night pal!",
+        "Sweet dreams!",
+        "Sleep well mate."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", "Later", "Catch you later",
+        "Good day", "G'day", "G day"],
+      "responses": [
+        "Thanks for visiting!",
+        "Have a nice day!",
+        "Bye! Come again soon.",
+        "Bye! Have a great day.",
+        "Goodbye! Hope to see you soon.", "Goodbye! Take care"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Great help","That's helpful", "Thank's a lot", "Thank you very much",
+        "Äppreciate it", "Such a life saver"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure!", "Cool ;-)", "Sure buddy!", "No sweat...", "Glad to help"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+       "Joke", "Funny", "laugh",
+        "Tell me a joke",
+        "Tell me something funny",
+        "Do you know a joke", "Do you know any jokes",
+        "I want to hear a joke",
+        "I would like to hear a joke",
+        "I could use a joke",
+        "Please tell a joke",
+        "Can you say something funny",
+        "Could use a laugh right now",
+        "Wanna laugh", "Need a laugh", "Make me laugh", "Any jokes"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What’s the best thing about Switzerland? The flag is a big plus.",
+        "I invented a new word! Plagiarism!",
+        "Did you hear about the mathematician who’s afraid of negative numbers? He’ll stop at nothing to avoid them.",
+        "Why do we tell actors to “break a leg?” Because every play has a cast.",
+        "Yesterday I saw a guy spill all his Scrabble letters on the road. I asked him, “What’s the word on the street?",
+        "A woman in labor suddenly shouted, “Shouldn’t! Wouldn’t! Couldn’t! Didn’t! Can’t!”. “Don’t worry,” said the doc. “Those are just contractions.",
+        "A bear walks into a bar and says, “Give me a whiskey and … cola”. “Why the big pause?” asks the bartender. The bear shrugged. “I’m not sure; I was born with them.”",
+        "Did you hear about the actor who fell through the floorboards? He was just going through a stage."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "time?",
+        "What time it is",
+        "can you tell me time?",
+        "Do u know the time?"
+      ],
+      "responses": [
+        "time"
+      ]
+    }
+  ]
+}
